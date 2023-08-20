@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+*{
+    color: white;
+}
+#titleNations{
+    margin-top: 1%;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+}
+.hidden {
+    display: none;
+  }
+#contenMain
+{
+    background-color: rgb(26,32,44);
+    font-family: sans-serif;
+    min-width: 1300px;
+}
+#contenDiv
+{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#divFlag
+{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap:10px;
+}
+.flag{
+    font-size: 14px;
+    font-weight: 600;
+    width: 220px;
+    height: 260px;
+    border-radius: 3px;
+    border: 2px solid rgba(177, 167, 167,0.5);
+}
+/* Modal */
+#contenModal{
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    background-color: rgba(7, 7, 7, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid rgba(124, 125, 127,0.5);
+    border-radius: 3px;
+    width: 40%;
+    height: 600px;
+}
+#imgSvgClose{
+    cursor: pointer;
+}
+.divLetterModal{
+    font-size: 16px;
+    font-weight: 500;
+}
+.divPaisNameOfi{
+    width:98%; 
+    text-align:center;
+    font-weight:800;
+    font-size:20px;}
+
+.deployFlag_Div2{
+margin: 0 auto 0 15%;
+}
+.div3_1{ /* Contenedor de informacion*/
+    margin: auto auto auto 5px;
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.div3_2_Border{/* Contenedor de unidades */
+    width: 200px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    gap:10px;
+    
+
+}
+.divBorder{ /* Unidad */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    height: 35px;
+    width:35px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: rgb(26,32,44);
+    cursor: pointer;
+}
